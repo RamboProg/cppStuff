@@ -9,7 +9,7 @@ int main(){
     cout<<"Enter the height of the water: "<<endl;
     cin>>h;
 
-    litres = (3.14 * sqrt(diametre/2.0))/1000.0;
+    litres = (3.14 * pow(diametre/2.0, 2))/1000.0;
 
     time = litres * 2.0;
 
