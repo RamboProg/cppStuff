@@ -1,6 +1,14 @@
 #include <iostream>
+#include "mainHeader.h"
+using namespace std;
 
-int main(int argc, char *argv[])
-{
-	std::cout << "Hello world!" << std::endl;
+int Student::getAge(){
+	return this->age;
+}
+
+
+int main(){
+	Student s;
+	cout<<s.getAge()<<endl;
+
 }
